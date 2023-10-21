@@ -13,7 +13,7 @@ body {
     padding: 0px 50px;
 }
 .apply-form-wrapper{
-    
+
 }
 .navbar-expand-md .navbar-nav .nav-link {
     font-size: 18px;
@@ -622,36 +622,48 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    text-decoration: none;
+    display: block;
 }
 .gif-bg2 {
     background-image: url(../images/gif2.bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    text-decoration: none;
+    display: block;
 }
 .gif-bg3 {
     background-image: url(../images/gif3.bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    text-decoration: none;
+    display: block;
 }
 .gif-bg4 {
     background-image: url(../images/gif4.bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    text-decoration: none;
+    display: block;
 }
 .gif-bg5 {
     background-image: url(../images/gif5.bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    text-decoration: none;
+    display: block;
 }
 .gif-bg6 {
     background-image: url(../images/gif6.bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    text-decoration: none;
+    display: block;
 }
 .sec-ing-gif {
     width: 50%;
@@ -666,6 +678,7 @@ body {
     font-style: normal;
     font-weight: 500;
     margin: 0;
+    text-decoration: none;
 }
 /* Recent Visa */
 .banner-section-wrapper.Recent-Visa-banner {
@@ -750,11 +763,26 @@ font-weight: 400;
 text-decoration: none;
 }
 .study-visa.innerpage-banner{
-    background-image: url("../images/study-visa.jpg");
+    background-image: url("../images/Student-Visa.jpg");
 }
-
-
-
+.family-visa.innerpage-banner{
+    background-image: url("../images/Family-visa.jpg");
+}
+.business-visa.innerpage-banner{
+    background-image: url("../images/business-Visa.jpg");
+}
+.business-visa.innerpage-banner{
+    background-image: url("../images/business-Visa.jpg");
+}
+.spouse-visa.innerpage-banner{
+    background-image: url("../images/Spouse-visa.jpg");
+}
+.tourist-visa.innerpage-banner{
+    background-image: url("../images/Tourist-visa.jpg");
+}
+.work-visa.innerpage-banner{
+    background-image: url("../images/work-visa.jpg");
+}
 
 @media only screen and (max-width:1199px) {
 
