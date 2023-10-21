@@ -35,8 +35,11 @@ body {
     font-size: 16px;
     font-weight: 600;
     padding: 12px 30px;
+    border: 1px solid #3CB3B1;
 }
-
+.mainbutton:hover{
+    border: 1px solid #000000;
+}
 .banner-section-wrapper {
     background-image: url(../images/bedi-desktop.jpg);
     background-size: cover;
@@ -174,6 +177,8 @@ body {
 .service-box {
     text-align: center;
     margin-bottom: 50px;
+    display: block;
+    text-decoration: none;
 }
 
 .section-title {
@@ -567,6 +572,8 @@ body {
 
 .banner-section-wrapper.about-banner {
     background-image: url("../images/about.jpg");
+}
+.banner-section-wrapper.innerpage-banner{
     padding: 160px 0px;
 }
 
@@ -740,6 +747,9 @@ font-style: normal;
 font-weight: 400;
 text-decoration: none;
 }
+.study-visa.innerpage-banner{
+    background-image: url("../images/study-visa.jpg");
+}
 
 
 
@@ -787,6 +797,9 @@ text-decoration: none;
 
     .subscribe-form .btn {
         padding: 0px 15px;
+    }
+    .start-planning h3 {
+        font-size: 30px;
     }
 }
 
