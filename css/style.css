@@ -12,7 +12,9 @@ body {
 .space-left-right {
     padding: 0px 50px;
 }
-
+.apply-form-wrapper{
+    
+}
 .navbar-expand-md .navbar-nav .nav-link {
     font-size: 18px;
     line-height: 24px;
