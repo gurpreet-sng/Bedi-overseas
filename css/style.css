@@ -3,7 +3,12 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-
+.container-fluid{
+    overflow: hidden;
+}
+div.eapps-widget{
+    position: static !important;
+}
 .navbar-nav.me-auto {
     margin-left: auto !important;
     margin-right: 0px !important;
@@ -215,6 +220,7 @@ body {
     background-image: url(../images/whychoose.jpg);
     background-position: top left;
     background-size: contain;
+    overflow: hidden;
 }
 
 .why-choose-section {
