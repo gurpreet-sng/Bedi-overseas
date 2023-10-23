@@ -101,6 +101,7 @@ div.eapps-widget{
 .banner-person {
     position: absolute;
     bottom: 0;
+    top: 10px;
 }
 
 .header-style {
