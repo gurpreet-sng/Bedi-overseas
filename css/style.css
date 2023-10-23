@@ -87,11 +87,14 @@ div.eapps-widget{
 
 .squarebutton {
     background: #0C2B3F;
+    border: 1px solid #0C2B3F;
     padding: 20px 35px;
     align-items: center;
     color: #ffffff;
-    border: 0px;
     border-radius: 0px;
+}
+.squarebutton:hover{
+    border: 1px solid #0C2B3F;
 }
 
 .banner-person-parent {
