@@ -47,10 +47,10 @@ div.eapps-widget{
 .mainbutton:hover{
     border: 1px solid #000000;
 }
-.banner-section-wrapper {
+.banner-section-wrapper{
     background-image: url(../images/bedi-desktop.jpg);
     background-size: cover;
-    padding-top: 160px;
+    padding-top: 148px;
 }
 
 .banner-content {
@@ -164,6 +164,7 @@ div.eapps-widget{
 
 .mainbutton.orange-btn {
     background-color: #EF9D14;
+    border: 1px solid #EF9D14 ;
 }
 
 .rcic {
@@ -582,11 +583,11 @@ div.eapps-widget{
     padding: 100px 0px 0px;
 }
 
-.banner-section-wrapper.about-banner {
+.banner-section-wrapper.about-banner{
     background-image: url("../images/about.jpg");
 }
 .banner-section-wrapper.innerpage-banner{
-    padding: 160px 0px;
+    padding: 148px 0px;
 }
 
 .pos-static {
@@ -1060,10 +1061,10 @@ text-decoration: none;
         line-height: 70px;
     }
 
-    .recent-visa-title span {
+    .recent-visa-title span{
         width: auto;
         padding: 10px;
-        margin-bottom: 5px;
+        margin-bottom: -1px;
     }
 
     .recent {
@@ -1134,5 +1135,8 @@ text-decoration: none;
 
     .navbar-brand {
         width: 190px;
+    }
+    .footer-title{
+        margin-bottom: 15px;
     }
 }
