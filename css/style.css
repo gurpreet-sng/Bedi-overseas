@@ -1155,4 +1155,10 @@ text-decoration: none;
     .footer-title{
         margin-bottom: 15px;
     }
+    div.eapps-widget{
+        display: none;
+    }
+    .FloatingButton__FloatingButtonContainer-sc-q5md4t-0.lbvXTF{
+        display: none;
+    }
 }
