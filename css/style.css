@@ -13,7 +13,10 @@ div.eapps-widget{
     margin-left: auto !important;
     margin-right: 0px !important;
 }
-
+.visa-type h4{
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
+}
 .space-left-right {
     padding: 0px 50px;
 }
@@ -23,6 +26,9 @@ div.eapps-widget{
 }
 .space-top-40{
     padding-top: 40px !important;
+}
+.space-top-100{
+    padding-top: 100px;
 }
 .owl-nav button span{
     border-radius: 59px;
@@ -36,6 +42,15 @@ div.eapps-widget{
     display: inline-block;
     margin: 0px 2px;
 }
+.points-section ol li{
+    margin-bottom: 15px;
+}
+.space-top-0{
+    padding-top: 0px !important;
+}
+.space-bottom-40{
+    padding-bottom: 40px !important;
+}
 .navbar-expand-md .navbar-nav .nav-link {
     font-size: 18px;
     line-height: 24px;
@@ -45,7 +60,10 @@ div.eapps-widget{
     color: #000000;
     text-align: center;
 }
-
+.points-section h4{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
 .spaceleft-right {
     padding: 0px 60px;
 }
