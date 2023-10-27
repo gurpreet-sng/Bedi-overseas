@@ -16,6 +16,8 @@ div.eapps-widget{
 .visa-type h4{
     border-bottom: 1px solid #333333;
     margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 .space-left-right {
     padding: 0px 50px;
@@ -620,6 +622,10 @@ div.eapps-widget{
 .banner-section-wrapper.about-banner{
     background-image: url("../images/about.jpg");
 }
+.banner-section-wrapper.canada-banner{
+    background-image: url("../images/canada-page.jpg");
+}
+
 .banner-section-wrapper.innerpage-banner{
     padding: 148px 0px;
 }
@@ -808,7 +814,7 @@ font-weight: 400;
 text-decoration: none;
 }
 .study-visa.innerpage-banner{
-    background-image: url("../images/Student-Visa.jpg");
+    background-image: url("../images/study-visa.jpg");
 }
 .family-visa.innerpage-banner{
     background-image: url("../images/Family-visa.jpg");
@@ -820,13 +826,13 @@ text-decoration: none;
     background-image: url("../images/business-Visa.jpg");
 }
 .spouse-visa.innerpage-banner{
-    background-image: url("../images/Spouse-visa.jpg");
+    background-image: url("../images/spouse.jpg");
 }
 .tourist-visa.innerpage-banner{
-    background-image: url("../images/Tourist-visa.jpg");
+    background-image: url("../images/tourist.jpg");
 }
 .work-visa.innerpage-banner{
-    background-image: url("../images/work-visa.jpg");
+    background-image: url("../images/wo.jpg");
 }
 
 @media only screen and (max-width:1199px) {
