@@ -851,7 +851,6 @@ text-decoration: none;
 }
 .visa-type-wrapper{
     display: flex;
-    align-items: center;
 }
 .visa-type{
     padding-left: 20px;
