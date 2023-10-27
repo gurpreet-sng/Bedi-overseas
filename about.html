@@ -86,6 +86,21 @@
             <div class="item">
                 <div class="bnn-img"><img src="images/image-5.jpg"></div>
             </div>
+            <div class="item">
+                <div class="bnn-img"><img src="images/image-1.jpg"></div>
+            </div>
+            <div class="item">
+                <div class="bnn-img"><img src="images/image-2.jpg"></div>
+            </div>
+            <div class="item">
+                <div class="bnn-img"><img src="images/image-3.jpg"></div>
+            </div>
+            <div class="item">
+                <div class="bnn-img"><img src="images/image-4.jpg"></div>
+            </div>
+            <div class="item">
+                <div class="bnn-img"><img src="images/image-5.jpg"></div>
+            </div>
         </div>
     </div>
 
@@ -239,7 +254,23 @@
                     nav:true,
                     autoplay:true,
                     autoplayTimeout:2000,
-                    autoplayHoverPause:true
+                    autoplayHoverPause:true,
+                    responsiveClass:true,
+                    responsive:{
+                        0:{
+                            items:1,
+                            nav:true
+                        },
+                        600:{
+                            items:3,
+                            nav:true
+                        },
+                        1000:{
+                            items:4,
+                            nav:true,
+                            loop:false
+                        }
+                    }
                 });
 
                 $('.play').on('click',function(){

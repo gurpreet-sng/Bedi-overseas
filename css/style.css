@@ -55,6 +55,9 @@ div.eapps-widget{
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
+.owl-dots{
+    display: none !important;
+}
 .owl-nav .owl-next span{
     background-image: url("../images/arrright.png") !important;
     background-repeat: no-repeat !important;
