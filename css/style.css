@@ -625,6 +625,9 @@ div.eapps-widget{
 .banner-section-wrapper.canada-banner{
     background-image: url("../images/canada-page.jpg");
 }
+.banner-section-wrapper.amarica-banner{
+    background-image: url("../images/amr.jpg");
+}
 
 .banner-section-wrapper.innerpage-banner{
     padding: 148px 0px;
@@ -834,6 +837,18 @@ text-decoration: none;
 .work-visa.innerpage-banner{
     background-image: url("../images/wo.jpg");
 }
+.uk-banner.innerpage-banner{
+    background-image: url("../images/ukbanner.jpg");
+}
+.nz-banner.innerpage-banner{
+    background-image: url("../images/nzbanner.jpg");
+}
+.aus-banner.innerpage-banner{
+    background-image: url("../images/ausbanner.jpg");
+}
+.europe-banner.innerpage-banner{
+    background-image: url("../images/eubanner.jpg");
+}
 .visa-type-wrapper{
     display: flex;
     align-items: center;
@@ -890,9 +905,12 @@ text-decoration: none;
     }
 }
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:991px){
 
-    .banner-person {
+    .statistics-wrapper .col-lg-2{
+        margin-bottom: 30px;
+    }
+    .banner-person{
         position: static;
         text-align: center;
     }
