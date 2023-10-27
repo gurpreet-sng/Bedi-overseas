@@ -3,6 +3,10 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+.custom-container .row {
+    width: 80%;
+    margin: auto;
+}
 .container-fluid{
     overflow: hidden;
 }
@@ -961,10 +965,20 @@ text-decoration: none;
     .recent-visa-title {
         position: static;
     }
+    .custom-container .row{
+        width: 100%;
+    }
+    .introduction-section .space-bottom-40 {
+        padding-bottom: 0px !important;
+    }
+    .visa-type-wrapper{
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width:767px) {
 
+    
     .navbar-toggler {
         background-color: #000000;
     }
@@ -1084,6 +1098,9 @@ text-decoration: none;
 
 @media only screen and (max-width:575px) {
 
+    .visa-type-wrapper {
+        margin-bottom: 0px;
+    }
     .introduction-section .space-bottom-40 {
         padding-bottom: 0px !important;
     }
