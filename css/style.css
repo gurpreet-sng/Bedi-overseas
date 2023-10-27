@@ -852,6 +852,8 @@ text-decoration: none;
 }
 .visa-type-wrapper{
     display: flex;
+    text-decoration: none;
+    color: #000000;
 }
 .visa-type{
     padding-left: 20px;
