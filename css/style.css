@@ -1067,6 +1067,18 @@ text-decoration: none;
 
 @media only screen and (max-width:575px) {
 
+    .introduction-section .space-bottom-40 {
+        padding-bottom: 0px !important;
+    }
+    .visa-type-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .visa-type{
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
     .inner-page-title {
         font-size: 60px;
         line-height: 70px;
