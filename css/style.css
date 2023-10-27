@@ -817,7 +817,7 @@ text-decoration: none;
     background-image: url("../images/study-visa.jpg");
 }
 .family-visa.innerpage-banner{
-    background-image: url("../images/Family-visa.jpg");
+    background-image: url("../images/fam.jpg");
 }
 .business-visa.innerpage-banner{
     background-image: url("../images/business-Visa.jpg");
@@ -834,7 +834,13 @@ text-decoration: none;
 .work-visa.innerpage-banner{
     background-image: url("../images/wo.jpg");
 }
-
+.visa-type-wrapper{
+    display: flex;
+    align-items: center;
+}
+.visa-type{
+    padding-left: 20px;
+}
 @media only screen and (max-width:1199px) {
 
     .spaceleft-right {
