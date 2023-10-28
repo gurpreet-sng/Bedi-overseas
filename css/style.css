@@ -39,7 +39,7 @@ body {
 .quick-links-warpper{
     position: absolute;
     top: 400px;
-    right: -30px;
+    right: 0px;
 }
 .quick-links-warpper h4{
     color: #0C2B3F;
@@ -55,7 +55,7 @@ body {
     padding: 0px;
 }
 .quick-links-warpper ul li{
-    border-radius: 78px;
+    border-radius: 0px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 4.92%, #FFF 31.8%);
     list-style: none;
     width: 305px;
