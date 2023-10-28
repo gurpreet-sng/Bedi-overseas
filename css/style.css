@@ -36,6 +36,12 @@ body {
 .container-fluid{
     overflow: hidden;
 }
+.FloatingButton__FloatingButtonContainer-sc-q5md4t-0.lbvXTF button{
+	background-color: #28d26a !important;
+}
+.FloatingButton__FloatingButtonContainer-sc-q5md4t-0.lbvXTF button span{
+    color: #ffffff;
+}
 div.eapps-widget{
     position: static !important;
 }
