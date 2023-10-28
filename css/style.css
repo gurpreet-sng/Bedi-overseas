@@ -37,7 +37,7 @@ body {
     overflow: hidden;
 }
 .quick-links-warpper{
-    position: fixed;
+    position: absolute;
     top: 400px;
     right: -30px;
 }
