@@ -3,10 +3,6 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-.custom-container .row {
-    width: 80%;
-    margin: auto;
-}
 .container-fluid{
     overflow: hidden;
 }
@@ -392,7 +388,11 @@ div.eapps-widget{
 .review-box2 {
     background-color: #E3FFFF;
     padding: 20px;
-    margin: 20px 0PX;
+    margin: 20px 0px;
+    height: 100%;
+}
+.sec-to-serv .col-lg-3{
+    margin-bottom: 30px;
 }
 
 .client-info {
