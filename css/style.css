@@ -3,6 +3,36 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+.nav-item{
+    position: relative;
+}
+.nav-item ul{
+    position: absolute;
+    display: none;
+}
+.nav-item:hover ul{
+    display: block;
+}
+.nav-item ul li{
+    list-style: none;
+}
+.nav-item ul li a {
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #dddddd;
+    color: #000000;
+    font-size: 15px;
+}
+.nav-item ul li a:hover{
+    background: #3CB3B1;
+    color: #ffffff;
+}
+.navbar .container-fluid{
+    overflow: visible;
+}
 .container-fluid{
     overflow: hidden;
 }
@@ -993,7 +1023,15 @@ text-decoration: none;
 
 @media only screen and (max-width:767px) {
 
-    
+    .nav-item ul{
+        position: static;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-item ul li a{
+        width: 100%;
+    }
     .navbar-toggler {
         background-color: #000000;
     }
