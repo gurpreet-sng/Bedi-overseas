@@ -975,7 +975,7 @@ text-decoration: none;
 .arrow-list-section ul{
     padding-left: 0px;
 }
-@media only screen and (max-width:1199px) {
+@media only screen and (max-width:1199px){
 
     .spaceleft-right {
         padding: 0px 20px;
