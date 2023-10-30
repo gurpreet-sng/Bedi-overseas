@@ -3,6 +3,13 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+.nav-link li i{
+    width: auto;
+    height: auto;
+}
+.nav-link li i img{
+    width: 100%;
+}
 .custom-container{
     width: 80%;
     margin: auto;
