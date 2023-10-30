@@ -10,6 +10,10 @@ body {
 .nav-link li i img{
     width: 100%;
 }
+.nav-link li i{
+    display: inline-block;
+    width: 20px;
+}
 .custom-container{
     width: 80%;
     margin: auto;
