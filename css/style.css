@@ -3,6 +3,10 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+.custom-container{
+    width: 80%;
+    margin: auto;
+}
 .nav-item{
     position: relative;
 }
