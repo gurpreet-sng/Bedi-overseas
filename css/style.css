@@ -37,7 +37,7 @@ body {
     overflow: hidden;
 }
 .quick-links-warpper{
-    position: absolute;
+    position: fixed;
     top: 400px;
     right: 0px;
 }
@@ -1203,6 +1203,13 @@ text-decoration: none;
 
     .banner-section-wrapper.about-banner {
         padding: 100px 0px;
+    }
+    .quick-links-warpper{
+        position: absolute;
+    }
+    .se-cont-head{
+        font-size: 40px;
+        line-height: 50px;
     }
 }
 
