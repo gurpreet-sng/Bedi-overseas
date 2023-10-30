@@ -964,6 +964,11 @@ text-decoration: none;
 .visa-type{
     padding-left: 20px;
 }
+.arrow-list-section i{
+    margin-right: 5px;
+    color: #3CB3B1;
+    font-size: 19px;
+}
 
 @media only screen and (max-width:1199px) {
 
