@@ -1097,9 +1097,7 @@ text-decoration: none;
 
 @media only screen and (max-width:767px){
 
-    .mobile-space-30{
-        pading-top: 30px !important;
-    }
+    
     .space-top-75{
         padding-top:0px;
     }
@@ -1236,6 +1234,9 @@ text-decoration: none;
     .se-cont-head{
         font-size: 40px;
         line-height: 50px;
+    }
+    .space-top-bottom.mobile-space-30{
+        pading-top: 30px !important;
     }
 }
 
