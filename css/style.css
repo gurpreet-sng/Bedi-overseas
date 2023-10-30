@@ -3,17 +3,12 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-.nav-item li i{
-    width: auto;
-    height: auto;
+
+.nav-item li a img{
+    width: 30px;
+    margin-right: 5px;
 }
-.nav-item li i img{
-    width: 100%;
-}
-.nav-item li i{
-    display: inline-block;
-    width: 20px;
-}
+
 .custom-container{
     width: 80%;
     margin: auto;
