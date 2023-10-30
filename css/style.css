@@ -8,7 +8,13 @@ body {
     width: 30px;
     margin-right: 5px;
 }
-
+.sec-t-e-a{
+    display: flex;
+}
+.sec-t-e-a i{
+    font-style: normal;
+    margin-right: 10px;
+}
 .custom-container{
     width: 80%;
     margin: auto;
