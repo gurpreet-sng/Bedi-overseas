@@ -994,6 +994,9 @@ text-decoration: none;
 .space-top-75{
     padding-top: 75px;
 }
+.contact-small{
+    text-align: center;
+}
 @media only screen and (max-width:1199px){
 
     .spaceleft-right {
@@ -1113,7 +1116,9 @@ text-decoration: none;
 
 @media only screen and (max-width:767px){
 
-    
+    .contact-small{
+        text-align: left;
+    }
     .space-top-75{
         padding-top:0px;
     }
