@@ -3,14 +3,14 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-.nav-link li i{
+.nav-item li i{
     width: auto;
     height: auto;
 }
-.nav-link li i img{
+.nav-item li i img{
     width: 100%;
 }
-.nav-link li i{
+.nav-item li i{
     display: inline-block;
     width: 20px;
 }
