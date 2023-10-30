@@ -969,6 +969,9 @@ text-decoration: none;
     color: #3CB3B1;
     font-size: 19px;
 }
+.arrow-list-section li{
+    list-style: none;
+}
 
 @media only screen and (max-width:1199px) {
 
