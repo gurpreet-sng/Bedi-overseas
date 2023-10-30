@@ -17,6 +17,13 @@ body {
 .nav-item:hover ul{
     display: block;
 }
+.arrow-list-section p{
+    display: flex;
+}
+.arrow-list-section p i{
+    margin-top: 2px;
+    margin-right: 10px;
+}
 .nav-item ul li{
     list-style: none;
 }
