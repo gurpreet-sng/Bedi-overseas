@@ -3,7 +3,9 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-
+.tabsection-wrapper{
+    background: #E3FFFF;
+}
 .nav-item li a img{
     width: 30px;
     margin-right: 5px;
